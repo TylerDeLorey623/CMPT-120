@@ -33,7 +33,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.project&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.blackjack">
+  <component name="RunManager" selected="Python.main">
     <configuration name="Debug (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CMPT-110" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -183,9 +183,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.blackjack" />
         <item itemvalue="Python.Debug (1)" />
-        <item itemvalue="Python.main" />
         <item itemvalue="Python.if_else_loop_practice" />
         <item itemvalue="Python.Debug (3)" />
       </list>
@@ -212,16 +212,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$USER_HOME$/PycharmProjects/test/main.py</url>
-          <line>7</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
