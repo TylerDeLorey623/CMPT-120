@@ -7,7 +7,17 @@ hint: there's try/catch statements that i didn't teach but is somewhat straightf
 You can also go much much simpler if you want to, I just want you guys to keep practicing your google skills
 and ofc, if you're stuck, don't hesitate to email
 '''
+
+
 def main():
-    intInput = int(input("Enter an int (but enter a string to see the error)"))
-    
+    while True:
+        try:
+            intInput = int(input("Enter an int (but enter a string to see the error) "))
+            break
+        except ValueError:
+            print("Value wasn't an integer! Please try again.")
+            print("")
+    print("Good job.")
+
+
 main()
