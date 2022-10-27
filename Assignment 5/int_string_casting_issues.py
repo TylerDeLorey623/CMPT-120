@@ -15,8 +15,7 @@ def main():
             intInput = int(input("Enter an int (but enter a string to see the error) "))
             break
         except ValueError:
-            print("Value wasn't an integer! Please try again.")
-            print("")
+            print("Value wasn't an integer! Please try again. \n")
     print("Good job.")
 
 
